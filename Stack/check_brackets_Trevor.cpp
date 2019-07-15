@@ -35,7 +35,7 @@ int main() {
 	bool doNotPrintOpeningBracket = true;
 	std::stack <Bracket> openingBracketsStack;
 
-	for (int position = 0; position < text.length(); ++position) 
+	for (std::size_t position = 0; position < text.length(); ++position) 
 	{
 		char next = text[position];
 		
@@ -64,6 +64,7 @@ int main() {
 				// Print position of the first char
 				std::cout << position + 1;
 				doNotPrintOpeningBracket = false;
+				break;
 			}
 		}
 	}
