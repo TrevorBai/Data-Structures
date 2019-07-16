@@ -10,4 +10,4 @@ position of certain char. The new created header file can be easilly shared by
 main.cpp and unittest1.cpp.
 
 There are 54 tests file uploaded. For extreamly large input test scenario, we will
-leave the input in separate file resource.
+leave the input in separate file resource and test it using unittest2.cpp.
