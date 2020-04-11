@@ -1,1 +1,1 @@
-## This is a Binary Search Tree Implementation in JavaScript
+## Binary Search Tree and Binary Heaps Implementation in JavaScript
